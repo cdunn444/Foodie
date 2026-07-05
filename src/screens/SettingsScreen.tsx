@@ -59,9 +59,11 @@ export function SettingsScreen() {
         </Pressable>
         <Text style={styles.title}>Settings</Text>
 
-        <Text style={styles.fieldLabel}>Anthropic API key</Text>
+        <Text style={styles.fieldLabel}>Anthropic API key (optional)</Text>
         <Text style={styles.fieldHint}>
-          The engine calls Claude directly from your phone. Your key stays on this device.
+          Without a key, searches rank places from your own library — free and
+          fully on-device. Add a key (paid, from platform.claude.com) to discover
+          new places in any city. The key stays on this device.
         </Text>
         <TextInput
           style={styles.input}

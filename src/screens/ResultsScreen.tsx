@@ -14,6 +14,7 @@ import { colors, dietFlagColor, fonts, radius, space, type } from '../theme';
 import { RootStackParamList, Nav } from '../navigation';
 import { useApp } from '../AppState';
 import { recommend } from '../engine';
+import { rankLibrary } from '../localEngine';
 import { RecPick, RecResult } from '../types';
 import { modeById } from '../modes';
 
@@ -77,9 +78,25 @@ export function ResultsScreen() {
   const [error, setError] = useState<string | null>(null);
   const [loadingLine, setLoadingLine] = useState(0);
 
+  const usingLibraryEngine = !settings.apiKey;
+
   const run = useCallback(() => {
     setResult(null);
     setError(null);
+    if (!settings.apiKey) {
+      // No API key: rank the user's own library locally. Free, offline, instant.
+      const local = rankLibrary(library, input);
+      if (local.picks.length === 0) {
+        setError(
+          `Nothing in your library is tagged ${modeById(input.mode).name.toLowerCase()}${
+            input.daypart ? ` for ${input.daypart}` : ''
+          } yet. Add a place you love to start.`,
+        );
+      } else {
+        setResult(local);
+      }
+      return;
+    }
     recommend(settings.apiKey, library, constraints, input)
       .then(setResult)
       .catch((e: unknown) => {
@@ -139,6 +156,12 @@ export function ResultsScreen() {
           {result.picks.map((pick, i) => (
             <PickCard key={`${pick.name}-${i}`} pick={pick} index={i} />
           ))}
+          {usingLibraryEngine && (
+            <Text style={styles.sourceNote}>
+              ranked from your library — add an API key in settings to discover
+              new places anywhere
+            </Text>
+          )}
         </>
       )}
     </ScrollView>
@@ -249,5 +272,14 @@ const styles = StyleSheet.create({
     fontFamily: fonts.bodySemiBold,
     fontSize: type.micro,
     color: colors.ink,
+  },
+  sourceNote: {
+    fontFamily: fonts.displayItalic,
+    fontSize: type.small,
+    lineHeight: 18,
+    color: colors.boneFaint,
+    textAlign: 'center',
+    marginTop: space.m,
+    paddingHorizontal: space.l,
   },
 });

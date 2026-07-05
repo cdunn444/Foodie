@@ -30,7 +30,9 @@ export function MoodScreen() {
   const [occasion, setOccasion] = useState<string | null>(null);
 
   const modes = MODES.filter((m) => m.id !== 'destination' || settings.destinationMode);
-  const canSearch = mode !== null && city.trim().length > 1;
+  // Without an API key the app ranks your own library, so a city is optional.
+  const needsCity = settings.apiKey.length > 0;
+  const canSearch = mode !== null && (!needsCity || city.trim().length > 1);
 
   const search = () => {
     if (!mode || !canSearch) return;
@@ -76,7 +78,7 @@ export function MoodScreen() {
           ))}
         </View>
 
-        <Text style={styles.fieldLabel}>Where</Text>
+        <Text style={styles.fieldLabel}>{needsCity ? 'Where' : 'Where (optional)'}</Text>
         <TextInput
           style={styles.cityInput}
           value={city}

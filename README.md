@@ -34,9 +34,12 @@ npx expo start
 
 Scan the QR code with Expo Go on your phone (or press `i` / `a` for a simulator).
 
-Then open **Settings** in the app and paste your Anthropic API key. The key is
-stored only on the device (AsyncStorage) and calls go directly from your phone
-to the Claude API — there is no backend.
+**No API key required.** Out of the box, searches rank places from your own
+library within the selected mode — free, offline, fully on-device. Optionally,
+paste an Anthropic API key in **Settings** to unlock discovery of new places in
+any city via Claude + web search. Either way there is no backend: your library
+lives only on the device (AsyncStorage), and the optional key is stored locally
+with calls going directly from your device to the Claude API.
 
 ## What ships
 

@@ -51,6 +51,27 @@ with calls going directly from your device to the Claude API.
 - **Zero taste in code**: all taste lives in data. The engine prompt learns the
   pattern from your library at search time; nothing user-specific is hardcoded.
 
+## The Palate skill (no API key, runs on your Claude subscription)
+
+This repo doubles as a Claude skill: `.claude/skills/palate/SKILL.md` turns any
+Claude session with this repo into the taste engine, with `library.json` at the
+repo root as the single source of truth (versioned in git).
+
+- **Recommendations**: "/palate scene in Austin on Saturday, party of 4" —
+  Claude reads your library, learns the pattern, web-searches real places,
+  ranks the top 8 within the mode's logic, and refines conversationally.
+- **Adding places**: "add Nixta in Austin — craft, the masa carries it, get the
+  duck carnitas" — Claude structures it into the schema, confirms, and commits.
+
+Works end to end in Claude Code (desktop, or code sessions in the claude.ai
+app). In a plain chat, upload the skill folder as a zip under Settings →
+Capabilities → Skills; recommendations work the same, and adds fall back to a
+paste-ready JSON block.
+
+Note: the web app keeps its own on-device library (bundled from
+`src/data/seed.json` + your local edits); `library.json` is the canonical copy
+for the skill.
+
 ## Architecture notes
 
 - `src/engine.ts` — the one Claude call (`claude-sonnet-5` + `web_search`),

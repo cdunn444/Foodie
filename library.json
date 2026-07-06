@@ -1,21 +1,50 @@
 {
   "constraints": {
-    "dietary": ["gluten-free", "dairy-free", "soy-free"],
-    "exceptions": ["A2 milk permitted"],
+    "dietary": [
+      "gluten-free",
+      "dairy-free",
+      "soy-free"
+    ],
+    "exceptions": [
+      "A2 milk permitted"
+    ],
     "note": "Will break the diet in peak modes when a place is worth it. Wants ease in floor modes."
   },
-  "priceScale": { "1": "$", "2": "$$", "3": "$$$", "4": "$$$$" },
-  "dietFitValues": ["easy", "workable", "worth-it", "hard"],
+  "priceScale": {
+    "1": "$",
+    "2": "$$",
+    "3": "$$$",
+    "4": "$$$$"
+  },
+  "dietFitValues": [
+    "easy",
+    "workable",
+    "worth-it",
+    "hard"
+  ],
   "places": [
     {
       "id": "platea",
       "name": "Platea",
       "city": "Pinecrest, FL",
       "type": "Steakhouse",
-      "modes": ["craft"],
-      "dayparts": ["dinner"],
-      "axes": { "energy": 3, "formality": 5, "design": 4, "crowd": null, "novelty": 3, "price": 3 },
-      "axisNotes": { "formality": "4-5, upscale" },
+      "modes": [
+        "craft"
+      ],
+      "dayparts": [
+        "dinner"
+      ],
+      "axes": {
+        "energy": 3,
+        "formality": 5,
+        "design": 4,
+        "crowd": null,
+        "novelty": 3,
+        "price": 3
+      },
+      "axisNotes": {
+        "formality": "4-5, upscale"
+      },
       "nailsSpecialty": true,
       "whatCarriesIt": "the steak",
       "wouldReturn": "yes",
@@ -27,10 +56,24 @@
       "name": "Zitz Sum",
       "city": "Coral Gables, FL",
       "type": "Asian fusion",
-      "modes": ["craft"],
-      "dayparts": ["dinner"],
-      "axes": { "energy": 3, "formality": 4, "design": 4, "crowd": 3, "novelty": 4, "price": 3 },
-      "axisNotes": { "formality": "4 inside, 2 outside", "price": "$$-$$$" },
+      "modes": [
+        "craft"
+      ],
+      "dayparts": [
+        "dinner"
+      ],
+      "axes": {
+        "energy": 3,
+        "formality": 4,
+        "design": 4,
+        "crowd": 3,
+        "novelty": 4,
+        "price": 3
+      },
+      "axisNotes": {
+        "formality": "4 inside, 2 outside",
+        "price": "$$-$$$"
+      },
       "nailsSpecialty": true,
       "whatCarriesIt": "the dumplings",
       "wouldReturn": "yes",
@@ -42,10 +85,24 @@
       "name": "Kalatua Beach Restaurant",
       "city": "St. Martin",
       "type": "Beach restaurant",
-      "modes": ["scene"],
-      "dayparts": ["lunch", "dinner"],
-      "axes": { "energy": 5, "formality": 4, "design": 5, "crowd": 4, "novelty": 3, "price": 3 },
-      "axisNotes": { "formality": "3-4" },
+      "modes": [
+        "scene"
+      ],
+      "dayparts": [
+        "lunch",
+        "dinner"
+      ],
+      "axes": {
+        "energy": 5,
+        "formality": 4,
+        "design": 5,
+        "crowd": 4,
+        "novelty": 3,
+        "price": 3
+      },
+      "axisNotes": {
+        "formality": "3-4"
+      },
       "nailsSpecialty": true,
       "whatCarriesIt": "the setting",
       "wouldReturn": "yes",
@@ -57,10 +114,24 @@
       "name": "Bonny Moon Beach Club",
       "city": "St. Martin",
       "type": "Beach club",
-      "modes": ["scene"],
-      "dayparts": ["lunch", "dinner"],
-      "axes": { "energy": 5, "formality": 4, "design": 5, "crowd": null, "novelty": 4, "price": 3 },
-      "axisNotes": { "formality": "3-4" },
+      "modes": [
+        "scene"
+      ],
+      "dayparts": [
+        "lunch",
+        "dinner"
+      ],
+      "axes": {
+        "energy": 5,
+        "formality": 4,
+        "design": 5,
+        "crowd": null,
+        "novelty": 4,
+        "price": 3
+      },
+      "axisNotes": {
+        "formality": "3-4"
+      },
       "nailsSpecialty": true,
       "whatCarriesIt": "the setting",
       "wouldReturn": "yes",
@@ -72,9 +143,21 @@
       "name": "Level 6",
       "city": "Coconut Grove, FL",
       "type": "Rooftop",
-      "modes": ["scene"],
-      "dayparts": ["dinner", "drinks"],
-      "axes": { "energy": 5, "formality": null, "design": 4, "crowd": null, "novelty": 4, "price": 4 },
+      "modes": [
+        "scene"
+      ],
+      "dayparts": [
+        "dinner",
+        "drinks"
+      ],
+      "axes": {
+        "energy": 5,
+        "formality": null,
+        "design": 4,
+        "crowd": null,
+        "novelty": 4,
+        "price": 4
+      },
       "axisNotes": {},
       "nailsSpecialty": true,
       "whatCarriesIt": "the room and the scene",
@@ -87,9 +170,20 @@
       "name": "Ghee",
       "city": "Dadeland, Miami, FL",
       "type": "Indian",
-      "modes": ["craft"],
-      "dayparts": ["dinner"],
-      "axes": { "energy": 3, "formality": null, "design": 4, "crowd": null, "novelty": 3, "price": 2 },
+      "modes": [
+        "craft"
+      ],
+      "dayparts": [
+        "dinner"
+      ],
+      "axes": {
+        "energy": 3,
+        "formality": null,
+        "design": 4,
+        "crowd": null,
+        "novelty": 3,
+        "price": 2
+      },
       "axisNotes": {},
       "nailsSpecialty": true,
       "whatCarriesIt": "the food",
@@ -102,9 +196,21 @@
       "name": "Maxwell Bros",
       "city": "Palmetto Bay, FL",
       "type": "Pizza",
-      "modes": ["solid-easy"],
-      "dayparts": ["lunch", "dinner"],
-      "axes": { "energy": 2, "formality": null, "design": 2, "crowd": null, "novelty": 1, "price": 2 },
+      "modes": [
+        "solid-easy"
+      ],
+      "dayparts": [
+        "lunch",
+        "dinner"
+      ],
+      "axes": {
+        "energy": 2,
+        "formality": null,
+        "design": 2,
+        "crowd": null,
+        "novelty": 1,
+        "price": 2
+      },
       "axisNotes": {},
       "nailsSpecialty": true,
       "whatCarriesIt": "the pizza",
@@ -117,9 +223,21 @@
       "name": "Komodo",
       "city": "Brickell, Miami, FL",
       "type": "Asian",
-      "modes": ["scene"],
-      "dayparts": ["dinner", "drinks"],
-      "axes": { "energy": null, "formality": null, "design": null, "crowd": null, "novelty": null, "price": null },
+      "modes": [
+        "scene"
+      ],
+      "dayparts": [
+        "dinner",
+        "drinks"
+      ],
+      "axes": {
+        "energy": null,
+        "formality": null,
+        "design": null,
+        "crowd": null,
+        "novelty": null,
+        "price": null
+      },
       "axisNotes": {},
       "nailsSpecialty": true,
       "whatCarriesIt": "the scene",
@@ -132,9 +250,21 @@
       "name": "Kaori",
       "city": "Brickell, Miami, FL",
       "type": "Asian fusion",
-      "modes": ["scene"],
-      "dayparts": ["dinner", "drinks"],
-      "axes": { "energy": null, "formality": null, "design": null, "crowd": null, "novelty": null, "price": null },
+      "modes": [
+        "scene"
+      ],
+      "dayparts": [
+        "dinner",
+        "drinks"
+      ],
+      "axes": {
+        "energy": null,
+        "formality": null,
+        "design": null,
+        "crowd": null,
+        "novelty": null,
+        "price": null
+      },
       "axisNotes": {},
       "nailsSpecialty": true,
       "whatCarriesIt": "the scene",
@@ -147,9 +277,20 @@
       "name": "Amal",
       "city": "Coconut Grove, FL",
       "type": "Lebanese",
-      "modes": ["scene"],
-      "dayparts": ["dinner"],
-      "axes": { "energy": null, "formality": null, "design": null, "crowd": null, "novelty": null, "price": null },
+      "modes": [
+        "scene"
+      ],
+      "dayparts": [
+        "dinner"
+      ],
+      "axes": {
+        "energy": null,
+        "formality": null,
+        "design": null,
+        "crowd": null,
+        "novelty": null,
+        "price": null
+      },
       "axisNotes": {},
       "nailsSpecialty": true,
       "whatCarriesIt": "the scenery",
@@ -162,9 +303,20 @@
       "name": "Mamey",
       "city": "Coral Gables, FL",
       "type": "Tropical / pan-latin-asian",
-      "modes": ["scene"],
-      "dayparts": ["dinner"],
-      "axes": { "energy": null, "formality": null, "design": null, "crowd": null, "novelty": null, "price": null },
+      "modes": [
+        "scene"
+      ],
+      "dayparts": [
+        "dinner"
+      ],
+      "axes": {
+        "energy": null,
+        "formality": null,
+        "design": null,
+        "crowd": null,
+        "novelty": null,
+        "price": null
+      },
       "axisNotes": {},
       "nailsSpecialty": true,
       "whatCarriesIt": "the scenery",
@@ -177,9 +329,21 @@
       "name": "Zucca",
       "city": "Coral Gables, FL",
       "type": "Italian",
-      "modes": ["scene", "craft"],
-      "dayparts": ["dinner"],
-      "axes": { "energy": null, "formality": null, "design": null, "crowd": null, "novelty": null, "price": null },
+      "modes": [
+        "scene",
+        "craft"
+      ],
+      "dayparts": [
+        "dinner"
+      ],
+      "axes": {
+        "energy": null,
+        "formality": null,
+        "design": null,
+        "crowd": null,
+        "novelty": null,
+        "price": null
+      },
       "axisNotes": {},
       "nailsSpecialty": true,
       "whatCarriesIt": "",
@@ -192,10 +356,23 @@
       "name": "Los Felix",
       "city": "Coconut Grove, FL",
       "type": "Mexican",
-      "modes": ["craft"],
-      "dayparts": ["dinner"],
-      "axes": { "energy": null, "formality": null, "design": null, "crowd": null, "novelty": 4, "price": 3 },
-      "axisNotes": { "price": "on the higher side, worth it" },
+      "modes": [
+        "craft"
+      ],
+      "dayparts": [
+        "dinner"
+      ],
+      "axes": {
+        "energy": null,
+        "formality": null,
+        "design": null,
+        "crowd": null,
+        "novelty": 4,
+        "price": 3
+      },
+      "axisNotes": {
+        "price": "on the higher side, worth it"
+      },
       "nailsSpecialty": true,
       "whatCarriesIt": "creative, imaginative food",
       "wouldReturn": "yes",
@@ -207,10 +384,23 @@
       "name": "Grazianos",
       "city": "Coral Gables, FL",
       "type": "Argentinian",
-      "modes": ["craft"],
-      "dayparts": ["dinner"],
-      "axes": { "energy": null, "formality": null, "design": null, "crowd": null, "novelty": 2, "price": 3 },
-      "axisNotes": { "price": "on the higher side, worth it" },
+      "modes": [
+        "craft"
+      ],
+      "dayparts": [
+        "dinner"
+      ],
+      "axes": {
+        "energy": null,
+        "formality": null,
+        "design": null,
+        "crowd": null,
+        "novelty": 2,
+        "price": 3
+      },
+      "axisNotes": {
+        "price": "on the higher side, worth it"
+      },
       "nailsSpecialty": true,
       "whatCarriesIt": "solid Argentinian",
       "wouldReturn": "yes",
@@ -222,9 +412,21 @@
       "name": "True Food Kitchen",
       "city": "The Falls, Miami, FL",
       "type": "Health / new american",
-      "modes": ["solid-easy"],
-      "dayparts": ["lunch", "dinner"],
-      "axes": { "energy": null, "formality": null, "design": null, "crowd": null, "novelty": null, "price": null },
+      "modes": [
+        "solid-easy"
+      ],
+      "dayparts": [
+        "lunch",
+        "dinner"
+      ],
+      "axes": {
+        "energy": null,
+        "formality": null,
+        "design": null,
+        "crowd": null,
+        "novelty": null,
+        "price": null
+      },
       "axisNotes": {},
       "nailsSpecialty": true,
       "whatCarriesIt": "",
@@ -237,9 +439,21 @@
       "name": "Local Pie",
       "city": "Kendall, Miami, FL",
       "type": "Pizza",
-      "modes": ["solid-easy"],
-      "dayparts": ["lunch", "dinner"],
-      "axes": { "energy": null, "formality": null, "design": null, "crowd": null, "novelty": null, "price": null },
+      "modes": [
+        "solid-easy"
+      ],
+      "dayparts": [
+        "lunch",
+        "dinner"
+      ],
+      "axes": {
+        "energy": null,
+        "formality": null,
+        "design": null,
+        "crowd": null,
+        "novelty": null,
+        "price": null
+      },
       "axisNotes": {},
       "nailsSpecialty": true,
       "whatCarriesIt": "the pizza",
@@ -252,9 +466,22 @@
       "name": "Coyo Taco",
       "city": "Miami, FL",
       "type": "Tacos",
-      "modes": ["solid-easy"],
-      "dayparts": ["lunch", "dinner", "late-night"],
-      "axes": { "energy": null, "formality": null, "design": null, "crowd": null, "novelty": null, "price": null },
+      "modes": [
+        "solid-easy"
+      ],
+      "dayparts": [
+        "lunch",
+        "dinner",
+        "late-night"
+      ],
+      "axes": {
+        "energy": null,
+        "formality": null,
+        "design": null,
+        "crowd": null,
+        "novelty": null,
+        "price": null
+      },
       "axisNotes": {},
       "nailsSpecialty": true,
       "whatCarriesIt": "the tacos",
@@ -267,9 +494,21 @@
       "name": "Salty Days",
       "city": "Cohasset, MA",
       "type": "Local staple",
-      "modes": ["reliable-local"],
-      "dayparts": ["lunch", "dinner"],
-      "axes": { "energy": null, "formality": null, "design": null, "crowd": null, "novelty": null, "price": null },
+      "modes": [
+        "reliable-local"
+      ],
+      "dayparts": [
+        "lunch",
+        "dinner"
+      ],
+      "axes": {
+        "energy": null,
+        "formality": null,
+        "design": null,
+        "crowd": null,
+        "novelty": null,
+        "price": null
+      },
       "axisNotes": {},
       "nailsSpecialty": true,
       "whatCarriesIt": "",
@@ -282,9 +521,21 @@
       "name": "Cheever Tavern",
       "city": "Norwell, MA",
       "type": "Tavern",
-      "modes": ["reliable-local"],
-      "dayparts": ["lunch", "dinner"],
-      "axes": { "energy": null, "formality": null, "design": null, "crowd": null, "novelty": null, "price": null },
+      "modes": [
+        "reliable-local"
+      ],
+      "dayparts": [
+        "lunch",
+        "dinner"
+      ],
+      "axes": {
+        "energy": null,
+        "formality": null,
+        "design": null,
+        "crowd": null,
+        "novelty": null,
+        "price": null
+      },
       "axisNotes": {},
       "nailsSpecialty": true,
       "whatCarriesIt": "",
@@ -297,9 +548,22 @@
       "name": "Bartaco",
       "city": "Coconut Grove, FL",
       "type": "Tacos / coastal",
-      "modes": ["reliable-local"],
-      "dayparts": ["lunch", "dinner", "drinks"],
-      "axes": { "energy": null, "formality": null, "design": null, "crowd": null, "novelty": null, "price": null },
+      "modes": [
+        "reliable-local"
+      ],
+      "dayparts": [
+        "lunch",
+        "dinner",
+        "drinks"
+      ],
+      "axes": {
+        "energy": null,
+        "formality": null,
+        "design": null,
+        "crowd": null,
+        "novelty": null,
+        "price": null
+      },
       "axisNotes": {},
       "nailsSpecialty": true,
       "whatCarriesIt": "",
@@ -312,9 +576,22 @@
       "name": "Motek",
       "city": "Miami, FL",
       "type": "Mediterranean",
-      "modes": ["reliable-local"],
-      "dayparts": ["breakfast", "lunch", "dinner"],
-      "axes": { "energy": null, "formality": null, "design": null, "crowd": null, "novelty": null, "price": null },
+      "modes": [
+        "reliable-local"
+      ],
+      "dayparts": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "axes": {
+        "energy": null,
+        "formality": null,
+        "design": null,
+        "crowd": null,
+        "novelty": null,
+        "price": null
+      },
       "axisNotes": {},
       "nailsSpecialty": true,
       "whatCarriesIt": "",
@@ -327,15 +604,54 @@
       "name": "Ceviche 105",
       "city": "Miami, FL",
       "type": "Peruvian",
-      "modes": ["reliable-local"],
-      "dayparts": ["lunch", "dinner"],
-      "axes": { "energy": null, "formality": null, "design": null, "crowd": null, "novelty": null, "price": null },
+      "modes": [
+        "reliable-local"
+      ],
+      "dayparts": [
+        "lunch",
+        "dinner"
+      ],
+      "axes": {
+        "energy": null,
+        "formality": null,
+        "design": null,
+        "crowd": null,
+        "novelty": null,
+        "price": null
+      },
       "axisNotes": {},
       "nailsSpecialty": true,
       "whatCarriesIt": "",
       "wouldReturn": "yes",
       "dietFit": null,
       "note": ""
+    },
+    {
+      "id": "diegos",
+      "name": "Diego's",
+      "city": "Newport, RI",
+      "type": "Mexican",
+      "modes": [
+        "solid-easy"
+      ],
+      "dayparts": [
+        "lunch",
+        "dinner"
+      ],
+      "axes": {
+        "energy": 2,
+        "formality": 2,
+        "design": 4,
+        "crowd": null,
+        "novelty": 3,
+        "price": 2
+      },
+      "axisNotes": {},
+      "nailsSpecialty": true,
+      "whatCarriesIt": "the shrimp tacos",
+      "wouldReturn": "yes",
+      "dietFit": "easy",
+      "note": "Shrimp tacos very tasty — a bit creative with the grilled watermelon. Very reasonable prices, simple no-frills Mexican. Loved the aesthetic: dive bar, rock 'n' roll inspired. Fits the Coyo Taco category."
     }
   ]
 }

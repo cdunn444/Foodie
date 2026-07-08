@@ -652,6 +652,32 @@
       "wouldReturn": "yes",
       "dietFit": "easy",
       "note": "Shrimp tacos very tasty — a bit creative with the grilled watermelon. Very reasonable prices, simple no-frills Mexican. Loved the aesthetic: dive bar, rock 'n' roll inspired. Fits the Coyo Taco category."
+    },
+    {
+      "id": "pattie-shack",
+      "name": "Pattie Shack",
+      "city": "Plymouth, MA",
+      "type": "Smashburgers / tacos",
+      "modes": [
+        "solid-easy"
+      ],
+      "dayparts": [
+        "lunch"
+      ],
+      "axes": {
+        "energy": 1,
+        "formality": 1,
+        "design": 1,
+        "crowd": null,
+        "novelty": null,
+        "price": 1
+      },
+      "axisNotes": {},
+      "nailsSpecialty": true,
+      "whatCarriesIt": "the smashburgers and chicken sandwiches",
+      "wouldReturn": "yes",
+      "dietFit": "workable",
+      "note": "Even more casual than Diego's — counter service but quick. Did takeout, got smash burgers and chicken sandwiches. Energy and ambience low, but quality was high. Price was low. Solid Coyo Taco-level option."
     }
   ]
 }

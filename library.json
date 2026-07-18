@@ -678,6 +678,32 @@
       "wouldReturn": "yes",
       "dietFit": "workable",
       "note": "Even more casual than Diego's — counter service but quick. Did takeout, got smash burgers and chicken sandwiches. Energy and ambience low, but quality was high. Price was low. Solid Coyo Taco-level option."
+    },
+    {
+      "id": "foggys-puck-cafe",
+      "name": "Foggy's Puck Cafe",
+      "city": "Nantucket, MA",
+      "type": "Pizza / BBQ (concession cafe)",
+      "modes": [
+        "solid-easy"
+      ],
+      "dayparts": [
+        "dinner"
+      ],
+      "axes": {
+        "energy": 1,
+        "formality": 1,
+        "design": 1,
+        "crowd": null,
+        "novelty": 3,
+        "price": null
+      },
+      "axisNotes": {},
+      "nailsSpecialty": true,
+      "whatCarriesIt": "the Porky Pine Pizza (spicy Hawaiian deep dish)",
+      "wouldReturn": "yes",
+      "dietFit": "hard",
+      "note": "Solid, on the same level as Pattie Shack in Plymouth. Not aligned to the diet, but the deep dish Porky Pine Pizza — a spicy Hawaiian variant — was good. Did takeout, so no ambiance experienced (inside the Nantucket Ice rink)."
     }
   ]
 }

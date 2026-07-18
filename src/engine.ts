@@ -37,6 +37,13 @@ Use web search to find real, currently-open, well-reviewed places in ${input.cit
 that fit ${input.daypart ?? 'any daypart'} and clear the "nails its specialty" bar. Then rank the top
 8 by how well they match THIS user in THIS mode.
 
+VERIFY BEFORE RANKING: aggregator pages and "best of" lists outlive the
+restaurants they describe. For each pick, confirm it is still operating —
+look for recent activity (reviews, posts, or hours updated within ~6 months),
+treat a "permanently closed" label as decisive and replace that pick, and
+note seasonal closures for coastal/resort towns. If you cannot confirm a
+place is open, replace it or mark its "why" with "call ahead to confirm".
+
 Mode logic:
 - Peak modes (scene, craft, destination): reward the standout. Constraint-ease
   is a minor factor; a place worth breaking the diet for should still rank high.

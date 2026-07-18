@@ -93,15 +93,32 @@ context.
    against the user's constraints from the file.
 4. Rank the top 8 by fit to THIS user in THIS mode, applying the peak/floor
    constraint weighting above.
-5. Present as:
+5. **Verify every pick is still operating — mandatory, before presenting.**
+   Aggregator pages and "best of" lists outlive the restaurants they describe,
+   so sourcing from them is not proof of life. For each finalist:
+   - Run a targeted check (e.g. `"<name>" <city> permanently closed`, or the
+     restaurant's own site/socials) and look for **recent activity**: reviews,
+     posts, or menu/hours updates from roughly the last 6 months.
+   - Treat a "permanently closed" label on Google/Yelp as decisive — cut the
+     place and backfill from your runners-up (verify the replacement too).
+   - Evidence hierarchy: the restaurant's own site/social with current hours >
+     dated recent reviews > mere presence on a listing page (worth nothing).
+   - **Seasonal caveat:** coastal New England, islands, and resort towns close
+     seasonally or for renovation. If it's open only in season, say so.
+   - If you cannot confirm recent activity either way, either drop the place
+     or include it explicitly tagged "couldn't verify still open — call
+     ahead". Never present an unverified place as verified.
+6. Present as:
    - a short, playful, **lowercase** mood-title for the list (Daylist-style)
    - then each pick: **name** — match score (0–100), one why-line that is
      specific to this user (reference their places or notes when apt; never
      generic praise like "great vibes"), the one thing to order, and a diet
      flag (`easy` / `workable` / `worth-it` / `hard`).
-6. Refinement is expected: when the user pushes back ("too clubby", "more
+7. Refinement is expected: when the user pushes back ("too clubby", "more
    like Zucca"), re-rank from what you already found; search again only if
-   the correction demands new candidates.
+   the correction demands new candidates. Verification carries over — a
+   place confirmed open in this session doesn't need re-checking on
+   re-ranks, but any *new* candidate pulled in must pass step 5.
 
 ## Journey 2 — add (or edit) a place
 

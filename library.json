@@ -704,6 +704,32 @@
       "wouldReturn": "yes",
       "dietFit": "hard",
       "note": "Solid, on the same level as Pattie Shack in Plymouth. Not aligned to the diet, but the deep dish Porky Pine Pizza — a spicy Hawaiian variant — was good. Did takeout, so no ambiance experienced (inside the Nantucket Ice rink)."
+    },
+    {
+      "id": "claudettes",
+      "name": "Claudette's",
+      "city": "Siasconset, Nantucket, MA",
+      "type": "Sandwich shop / box lunch",
+      "modes": [
+        "solid-easy"
+      ],
+      "dayparts": [
+        "lunch"
+      ],
+      "axes": {
+        "energy": null,
+        "formality": null,
+        "design": null,
+        "crowd": null,
+        "novelty": 4,
+        "price": 3
+      },
+      "axisNotes": {},
+      "nailsSpecialty": true,
+      "whatCarriesIt": "the meatloaf sandwich",
+      "wouldReturn": "yes",
+      "dietFit": null,
+      "note": "WOW. Amazing. The meatloaf sandwich blew us away. Did takeout, so no ambiance experienced."
     }
   ]
 }

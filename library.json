@@ -730,6 +730,34 @@
       "wouldReturn": "yes",
       "dietFit": null,
       "note": "WOW. Amazing. The meatloaf sandwich blew us away. Did takeout, so no ambiance experienced."
+    },
+    {
+      "id": "villa-mexicana-cafe",
+      "name": "Villa Mexicana Cafe",
+      "city": "Boston, MA (Water St, Downtown)",
+      "type": "Mexican / burrito bowl",
+      "modes": [
+        "solid-easy"
+      ],
+      "dayparts": [
+        "lunch"
+      ],
+      "axes": {
+        "energy": 1,
+        "formality": 1,
+        "design": 1,
+        "crowd": null,
+        "novelty": 3,
+        "price": 2
+      },
+      "axisNotes": {
+        "price": "2-3"
+      },
+      "nailsSpecialty": true,
+      "whatCarriesIt": "the spicy chorizo burrito bowl",
+      "wouldReturn": "yes",
+      "dietFit": null,
+      "note": "10/10 would recommend. Ultra casual, takeout vibe, nothing fancy but 5/5 quality. Same caliber as Pattie Shack."
     }
   ]
 }

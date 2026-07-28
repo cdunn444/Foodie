@@ -765,6 +765,7 @@
       "city": "Marshfield, MA",
       "type": "Mexican / surf shop backyard bar",
       "modes": [
+        "solid-easy",
         "reliable-local"
       ],
       "dayparts": [

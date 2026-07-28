@@ -758,6 +758,35 @@
       "wouldReturn": "yes",
       "dietFit": null,
       "note": "10/10 would recommend. Ultra casual, takeout vibe, nothing fancy but 5/5 quality. Same caliber as Pattie Shack."
+    },
+    {
+      "id": "rexicana-leviate-backyard",
+      "name": "Rexicana at Leviate Backyard",
+      "city": "Marshfield, MA",
+      "type": "Mexican / surf shop backyard bar",
+      "modes": [
+        "reliable-local"
+      ],
+      "dayparts": [
+        "dinner"
+      ],
+      "axes": {
+        "energy": 2,
+        "formality": 1,
+        "design": 4,
+        "crowd": null,
+        "novelty": 3,
+        "price": 3
+      },
+      "axisNotes": {
+        "energy": "Quiet on a Monday night, likely picks up later in the week",
+        "novelty": "3-4"
+      },
+      "nailsSpecialty": true,
+      "whatCarriesIt": "the tacos, shrimp skewers, and kebabs — plus in-house pizza dough",
+      "wouldReturn": "yes",
+      "dietFit": null,
+      "note": "Very good tacos and shrimp skewers. Uber casual but cool surfy vibe, with a surf shop attached full of custom-designed merch. Menu also has kebabs, in-house made dough for pizzas, and fun tacos like halloumi and Hawaiian pork."
     }
   ]
 }

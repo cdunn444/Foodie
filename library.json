@@ -788,6 +788,32 @@
       "wouldReturn": "yes",
       "dietFit": null,
       "note": "Very good tacos and shrimp skewers. Uber casual but cool surfy vibe, with a surf shop attached full of custom-designed merch. Menu also has kebabs, in-house made dough for pizzas, and fun tacos like halloumi and Hawaiian pork."
+    },
+    {
+      "id": "the-smith",
+      "name": "The Smith",
+      "city": "New York, NY (Midtown East)",
+      "type": "American brasserie",
+      "modes": [
+        "reliable-local"
+      ],
+      "dayparts": [
+        "lunch"
+      ],
+      "axes": {
+        "energy": null,
+        "formality": null,
+        "design": 4,
+        "crowd": null,
+        "novelty": null,
+        "price": 3
+      },
+      "axisNotes": {},
+      "nailsSpecialty": true,
+      "whatCarriesIt": "the shrimp kale chopped salad and veggie bibimbap",
+      "wouldReturn": "yes",
+      "dietFit": null,
+      "note": "Old favorite of my wife and SIL from when she lived in NYC — hadn't been in about 10 years. Solid meal. Shrimp kale chopped salad and veggie bibimbap were excellent."
     }
   ]
 }

@@ -814,6 +814,32 @@
       "wouldReturn": "yes",
       "dietFit": null,
       "note": "Old favorite of my wife and SIL from when she lived in NYC — hadn't been in about 10 years. Solid meal. Shrimp kale chopped salad and veggie bibimbap were excellent."
+    },
+    {
+      "id": "gaby-cucina",
+      "name": "Gaby Cucina",
+      "city": "Aventura, FL",
+      "type": "Italian",
+      "modes": [
+        "craft"
+      ],
+      "dayparts": [
+        "dinner"
+      ],
+      "axes": {
+        "energy": null,
+        "formality": 4,
+        "design": 4,
+        "crowd": null,
+        "novelty": null,
+        "price": null
+      },
+      "axisNotes": {},
+      "nailsSpecialty": true,
+      "whatCarriesIt": "the overall food quality and ambiance",
+      "wouldReturn": "yes",
+      "dietFit": null,
+      "note": "Vibes and food were both really good. Don't remember exactly what we ordered, but it was kid friendly for a higher-end place."
     }
   ]
 }

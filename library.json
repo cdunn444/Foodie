@@ -840,6 +840,34 @@
       "wouldReturn": "yes",
       "dietFit": null,
       "note": "Vibes and food were both really good. Don't remember exactly what we ordered, but it was kid friendly for a higher-end place."
+    },
+    {
+      "id": "molyvos",
+      "name": "Molyvos",
+      "city": "New York, NY (Hell's Kitchen)",
+      "type": "Greek",
+      "modes": [
+        "craft"
+      ],
+      "dayparts": [
+        "dinner"
+      ],
+      "axes": {
+        "energy": 2,
+        "formality": null,
+        "design": 4,
+        "crowd": null,
+        "novelty": null,
+        "price": 3
+      },
+      "axisNotes": {
+        "price": "3 for NYC"
+      },
+      "nailsSpecialty": true,
+      "whatCarriesIt": "the lamb dishes",
+      "wouldReturn": "yes",
+      "dietFit": null,
+      "note": "Good pre-theater dinner. Moussaka was tasty but not a standout. Was in a hurry so skipped the mezze apps — the lamb dishes that came out looked great."
     }
   ]
 }

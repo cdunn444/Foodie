@@ -868,6 +868,33 @@
       "wouldReturn": "yes",
       "dietFit": null,
       "note": "Good pre-theater dinner. Moussaka was tasty but not a standout. Was in a hurry so skipped the mezze apps — the lamb dishes that came out looked great."
+    },
+    {
+      "id": "toro-loco",
+      "name": "Toro Loco",
+      "city": "New York, NY (Financial District)",
+      "type": "Mexican",
+      "modes": [
+        "solid-easy",
+        "reliable-local"
+      ],
+      "dayparts": [
+        "lunch"
+      ],
+      "axes": {
+        "energy": null,
+        "formality": null,
+        "design": 4,
+        "crowd": null,
+        "novelty": null,
+        "price": null
+      },
+      "axisNotes": {},
+      "nailsSpecialty": true,
+      "whatCarriesIt": "the carnitas and al pastor tacos",
+      "wouldReturn": "yes",
+      "dietFit": null,
+      "note": "Great casual option to do with kids. Carnitas and al pastor tacos were perfect street-style tacos dressed up a bit — not too simple, not too fancy. Great vibes/interior. Same vibe and food quality as Diego's and Rexicana."
     }
   ]
 }

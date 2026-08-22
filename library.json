@@ -895,6 +895,34 @@
       "wouldReturn": "yes",
       "dietFit": null,
       "note": "Great casual option to do with kids. Carnitas and al pastor tacos were perfect street-style tacos dressed up a bit — not too simple, not too fancy. Great vibes/interior. Same vibe and food quality as Diego's and Rexicana."
+    },
+    {
+      "id": "daily-provisions",
+      "name": "Daily Provisions",
+      "city": "New York, NY (Upper West Side)",
+      "type": "Cafe / American",
+      "modes": [
+        "solid-easy"
+      ],
+      "dayparts": [
+        "lunch"
+      ],
+      "axes": {
+        "energy": 3,
+        "formality": null,
+        "design": 3,
+        "crowd": null,
+        "novelty": null,
+        "price": 2
+      },
+      "axisNotes": {
+        "price": "2/5, especially by NYC standards"
+      },
+      "nailsSpecialty": true,
+      "whatCarriesIt": "the simple menu done well, especially the thick seasoned bacon",
+      "wouldReturn": "yes",
+      "dietFit": null,
+      "note": "Perfect cafe-casual lunch spot. Great vibes, simple menu, nice touches like thick seasoned bacon. Reliable local and casual takeout, but they have seating. Quality 4/5, craft 3.5/5 — reads as a top-of-class solid-easy execution, not benchmarked against craft-tier ambition."
     }
   ]
 }

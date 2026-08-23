@@ -923,6 +923,33 @@
       "wouldReturn": "yes",
       "dietFit": null,
       "note": "Perfect cafe-casual lunch spot. Great vibes, simple menu, nice touches like thick seasoned bacon. Reliable local and casual takeout, but they have seating. Quality 4/5, craft 3.5/5 — reads as a top-of-class solid-easy execution, not benchmarked against craft-tier ambition."
+    },
+    {
+      "id": "osteria-delbianco",
+      "name": "Osteria Delbianco",
+      "city": "New York, NY (Midtown East)",
+      "type": "Italian",
+      "modes": [
+        "craft",
+        "reliable-local"
+      ],
+      "dayparts": [
+        "dinner"
+      ],
+      "axes": {
+        "energy": 4,
+        "formality": 3.5,
+        "design": 3,
+        "crowd": 4,
+        "novelty": null,
+        "price": 4
+      },
+      "axisNotes": {},
+      "nailsSpecialty": true,
+      "whatCarriesIt": "the GF pasta and the pork chop and mushroom pasta",
+      "wouldReturn": "yes",
+      "dietFit": "easy",
+      "note": "Interior was much nicer in person than photos suggested — not trendy, but very classy and traditional. Food was amazing, quality 5/5. GF pasta was 5/5. Split a pork chop and mushroom pasta with my wife and it was perfect. Great recommendation."
     }
   ]
 }

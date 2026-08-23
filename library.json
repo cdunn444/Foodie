@@ -652,6 +652,304 @@
       "wouldReturn": "yes",
       "dietFit": "easy",
       "note": "Shrimp tacos very tasty — a bit creative with the grilled watermelon. Very reasonable prices, simple no-frills Mexican. Loved the aesthetic: dive bar, rock 'n' roll inspired. Fits the Coyo Taco category."
+    },
+    {
+      "id": "pattie-shack",
+      "name": "Pattie Shack",
+      "city": "Plymouth, MA",
+      "type": "Smashburgers / tacos",
+      "modes": [
+        "solid-easy"
+      ],
+      "dayparts": [
+        "lunch"
+      ],
+      "axes": {
+        "energy": 1,
+        "formality": 1,
+        "design": 1,
+        "crowd": null,
+        "novelty": null,
+        "price": 1
+      },
+      "axisNotes": {},
+      "nailsSpecialty": true,
+      "whatCarriesIt": "the smashburgers and chicken sandwiches",
+      "wouldReturn": "yes",
+      "dietFit": "workable",
+      "note": "Even more casual than Diego's — counter service but quick. Did takeout, got smash burgers and chicken sandwiches. Energy and ambience low, but quality was high. Price was low. Solid Coyo Taco-level option."
+    },
+    {
+      "id": "foggys-puck-cafe",
+      "name": "Foggy's Puck Cafe",
+      "city": "Nantucket, MA",
+      "type": "Pizza / BBQ (concession cafe)",
+      "modes": [
+        "solid-easy"
+      ],
+      "dayparts": [
+        "dinner"
+      ],
+      "axes": {
+        "energy": 1,
+        "formality": 1,
+        "design": 1,
+        "crowd": null,
+        "novelty": 3,
+        "price": null
+      },
+      "axisNotes": {},
+      "nailsSpecialty": true,
+      "whatCarriesIt": "the Porky Pine Pizza (spicy Hawaiian deep dish)",
+      "wouldReturn": "yes",
+      "dietFit": "hard",
+      "note": "Solid, on the same level as Pattie Shack in Plymouth. Not aligned to the diet, but the deep dish Porky Pine Pizza — a spicy Hawaiian variant — was good. Did takeout, so no ambiance experienced (inside the Nantucket Ice rink)."
+    },
+    {
+      "id": "claudettes",
+      "name": "Claudette's",
+      "city": "Siasconset, Nantucket, MA",
+      "type": "Sandwich shop / box lunch",
+      "modes": [
+        "solid-easy"
+      ],
+      "dayparts": [
+        "lunch"
+      ],
+      "axes": {
+        "energy": null,
+        "formality": null,
+        "design": null,
+        "crowd": null,
+        "novelty": 4,
+        "price": 3
+      },
+      "axisNotes": {},
+      "nailsSpecialty": true,
+      "whatCarriesIt": "the meatloaf sandwich",
+      "wouldReturn": "yes",
+      "dietFit": null,
+      "note": "WOW. Amazing. The meatloaf sandwich blew us away. Did takeout, so no ambiance experienced."
+    },
+    {
+      "id": "villa-mexicana-cafe",
+      "name": "Villa Mexicana Cafe",
+      "city": "Boston, MA (Water St, Downtown)",
+      "type": "Mexican / burrito bowl",
+      "modes": [
+        "solid-easy"
+      ],
+      "dayparts": [
+        "lunch"
+      ],
+      "axes": {
+        "energy": 1,
+        "formality": 1,
+        "design": 1,
+        "crowd": null,
+        "novelty": 3,
+        "price": 2
+      },
+      "axisNotes": {
+        "price": "2-3"
+      },
+      "nailsSpecialty": true,
+      "whatCarriesIt": "the spicy chorizo burrito bowl",
+      "wouldReturn": "yes",
+      "dietFit": null,
+      "note": "10/10 would recommend. Ultra casual, takeout vibe, nothing fancy but 5/5 quality. Same caliber as Pattie Shack."
+    },
+    {
+      "id": "rexicana-leviate-backyard",
+      "name": "Rexicana at Leviate Backyard",
+      "city": "Marshfield, MA",
+      "type": "Mexican / surf shop backyard bar",
+      "modes": [
+        "solid-easy",
+        "reliable-local"
+      ],
+      "dayparts": [
+        "dinner"
+      ],
+      "axes": {
+        "energy": 2,
+        "formality": 1,
+        "design": 4,
+        "crowd": null,
+        "novelty": 3,
+        "price": 3
+      },
+      "axisNotes": {
+        "energy": "Quiet on a Monday night, likely picks up later in the week",
+        "novelty": "3-4"
+      },
+      "nailsSpecialty": true,
+      "whatCarriesIt": "the tacos, shrimp skewers, and kebabs — plus in-house pizza dough",
+      "wouldReturn": "yes",
+      "dietFit": null,
+      "note": "Very good tacos and shrimp skewers. Uber casual but cool surfy vibe, with a surf shop attached full of custom-designed merch. Menu also has kebabs, in-house made dough for pizzas, and fun tacos like halloumi and Hawaiian pork."
+    },
+    {
+      "id": "the-smith",
+      "name": "The Smith",
+      "city": "New York, NY (Midtown East)",
+      "type": "American brasserie",
+      "modes": [
+        "reliable-local"
+      ],
+      "dayparts": [
+        "lunch"
+      ],
+      "axes": {
+        "energy": null,
+        "formality": null,
+        "design": 4,
+        "crowd": null,
+        "novelty": null,
+        "price": 3
+      },
+      "axisNotes": {},
+      "nailsSpecialty": true,
+      "whatCarriesIt": "the shrimp kale chopped salad and veggie bibimbap",
+      "wouldReturn": "yes",
+      "dietFit": null,
+      "note": "Old favorite of my wife and SIL from when she lived in NYC — hadn't been in about 10 years. Solid meal. Shrimp kale chopped salad and veggie bibimbap were excellent."
+    },
+    {
+      "id": "gaby-cucina",
+      "name": "Gaby Cucina",
+      "city": "Aventura, FL",
+      "type": "Italian",
+      "modes": [
+        "craft"
+      ],
+      "dayparts": [
+        "dinner"
+      ],
+      "axes": {
+        "energy": null,
+        "formality": 4,
+        "design": 4,
+        "crowd": null,
+        "novelty": null,
+        "price": null
+      },
+      "axisNotes": {},
+      "nailsSpecialty": true,
+      "whatCarriesIt": "the overall food quality and ambiance",
+      "wouldReturn": "yes",
+      "dietFit": null,
+      "note": "Vibes and food were both really good. Don't remember exactly what we ordered, but it was kid friendly for a higher-end place."
+    },
+    {
+      "id": "molyvos",
+      "name": "Molyvos",
+      "city": "New York, NY (Hell's Kitchen)",
+      "type": "Greek",
+      "modes": [
+        "craft"
+      ],
+      "dayparts": [
+        "dinner"
+      ],
+      "axes": {
+        "energy": 2,
+        "formality": null,
+        "design": 4,
+        "crowd": null,
+        "novelty": null,
+        "price": 3
+      },
+      "axisNotes": {
+        "price": "3 for NYC"
+      },
+      "nailsSpecialty": true,
+      "whatCarriesIt": "the lamb dishes",
+      "wouldReturn": "yes",
+      "dietFit": null,
+      "note": "Good pre-theater dinner. Moussaka was tasty but not a standout. Was in a hurry so skipped the mezze apps — the lamb dishes that came out looked great."
+    },
+    {
+      "id": "toro-loco",
+      "name": "Toro Loco",
+      "city": "New York, NY (Financial District)",
+      "type": "Mexican",
+      "modes": [
+        "solid-easy",
+        "reliable-local"
+      ],
+      "dayparts": [
+        "lunch"
+      ],
+      "axes": {
+        "energy": null,
+        "formality": null,
+        "design": 4,
+        "crowd": null,
+        "novelty": null,
+        "price": null
+      },
+      "axisNotes": {},
+      "nailsSpecialty": true,
+      "whatCarriesIt": "the carnitas and al pastor tacos",
+      "wouldReturn": "yes",
+      "dietFit": null,
+      "note": "Great casual option to do with kids. Carnitas and al pastor tacos were perfect street-style tacos dressed up a bit — not too simple, not too fancy. Great vibes/interior. Same vibe and food quality as Diego's and Rexicana."
+    },
+    {
+      "id": "daily-provisions",
+      "name": "Daily Provisions",
+      "city": "New York, NY (Upper West Side)",
+      "type": "Cafe / American",
+      "modes": [
+        "solid-easy"
+      ],
+      "dayparts": [
+        "lunch"
+      ],
+      "axes": {
+        "energy": 3,
+        "formality": null,
+        "design": 3,
+        "crowd": null,
+        "novelty": null,
+        "price": 2
+      },
+      "axisNotes": {
+        "price": "2/5, especially by NYC standards"
+      },
+      "nailsSpecialty": true,
+      "whatCarriesIt": "the simple menu done well, especially the thick seasoned bacon",
+      "wouldReturn": "yes",
+      "dietFit": null,
+      "note": "Perfect cafe-casual lunch spot. Great vibes, simple menu, nice touches like thick seasoned bacon. Reliable local and casual takeout, but they have seating. Quality 4/5, craft 3.5/5 — reads as a top-of-class solid-easy execution, not benchmarked against craft-tier ambition."
+    },
+    {
+      "id": "osteria-delbianco",
+      "name": "Osteria Delbianco",
+      "city": "New York, NY (Midtown East)",
+      "type": "Italian",
+      "modes": [
+        "craft",
+        "reliable-local"
+      ],
+      "dayparts": [
+        "dinner"
+      ],
+      "axes": {
+        "energy": 4,
+        "formality": 3.5,
+        "design": 3,
+        "crowd": 4,
+        "novelty": null,
+        "price": 4
+      },
+      "axisNotes": {},
+      "nailsSpecialty": true,
+      "whatCarriesIt": "the GF pasta and the pork chop and mushroom pasta",
+      "wouldReturn": "yes",
+      "dietFit": "easy",
+      "note": "Interior was much nicer in person than photos suggested — not trendy, but very classy and traditional. Food was amazing, quality 5/5. GF pasta was 5/5. Split a pork chop and mushroom pasta with my wife and it was perfect. Great recommendation."
     }
   ]
 }
